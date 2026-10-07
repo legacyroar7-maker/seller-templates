@@ -1,13 +1,14 @@
 # Seller Templates
 
-**Free, ready-to-fill templates for people who sell online. Start with a Shopify product import file you can copy today.**
+**Free, ready-to-fill templates for people who sell online. Copy one, fill it in, and list faster.**
 
 All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 
 ## Contents
 1. [Shopify product CSV import template](#1-shopify-product-csv-import-template)
+2. [Etsy listing planner](#2-etsy-listing-planner)
 
-More templates for Etsy, eBay, Vinted and Depop are coming soon.
+More templates for eBay, Vinted and Depop are coming soon.
 
 ---
 
@@ -54,6 +55,38 @@ You can leave out columns you do not need. Only **Title** is required for a new 
 - **Image links that do not open.** The import skips them or fails. Test each link in a browser first.
 - **Commas or currency signs in prices.** Write `29.00`, not `29,00` or `$29`.
 - **Saving in the wrong encoding.** Odd symbols in the text usually mean the file was not UTF-8.
+
+---
+
+## 2. Etsy listing planner
+
+**File:** [etsy-listing-planner.csv](etsy-listing-planner.csv)
+
+Plan a full Etsy listing in one sheet before you open Etsy: title, 13 tags, core details, category, attributes, materials, description start, photos, price and shipping. One row per field, with the limit, a tip and a filled demo example (a handmade mug from the made-up shop Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Write** your text in the **Your text** column. The **Characters used** column counts it for you.
+3. **Check** every count is inside the **Limit** column.
+4. **Copy** each field into your Etsy listing.
+
+### The rules that matter most
+| Field | Limit | Rule |
+|---|---|---|
+| **Title** | 140 characters | Put the main words first: what it is, then key details. Keep it short and easy to read. `%`, `:`, `&` and `+` can each be used only once. |
+| **Tags** | 13 tags, 20 characters each | Use all 13. Use phrases buyers type ("ceramic coffee mug"), not single words. No repeats. |
+| **Category** | Pick from list | Pick the most exact one. It decides which attributes you can fill in. |
+| **Attributes** | Change by category | Colour, size, occasion and more. They work like extra search words, so fill in every one that fits and do not waste tags on them. |
+| **Materials** | Letters, numbers, spaces | Say what it is made of. |
+| **Description** | First lines show first | Start with what it is, who it is for and the key facts. Size, care and shipping come after. |
+| **Photos** | Main photo first | Your first photo is the thumbnail in search. Show the item clearly. |
+
+### Common mistakes
+- **Stuffing the title.** A long list of keywords is hard to read. Buyers skip it.
+- **Tags that are almost the same.** "mug", "mugs" and "the mug" use up three tags for one search. Mix what it is, who it is for, the style and the occasion.
+- **Leaving attributes empty.** Empty attributes mean fewer ways to be found in filters.
+- **Wrong "When was it made?"** If you make it after the order comes in, pick made to order.
+- **Promising a processing time you cannot keep.** Late orders hurt your shop.
 
 ---
 
