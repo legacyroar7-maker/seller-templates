@@ -7,8 +7,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 ## Contents
 1. [Shopify product CSV import template](#1-shopify-product-csv-import-template)
 2. [Etsy listing planner](#2-etsy-listing-planner)
+3. [eBay item specifics checklist for clothing](#3-ebay-item-specifics-checklist-for-clothing)
 
-More templates for eBay, Vinted and Depop are coming soon.
+More templates for Vinted and Depop are coming soon.
 
 ---
 
@@ -87,6 +88,47 @@ Plan a full Etsy listing in one sheet before you open Etsy: title, 13 tags, core
 - **Leaving attributes empty.** Empty attributes mean fewer ways to be found in filters.
 - **Wrong "When was it made?"** If you make it after the order comes in, pick made to order.
 - **Promising a processing time you cannot keep.** Late orders hurt your shop.
+
+---
+
+## 3. eBay item specifics checklist for clothing
+
+**File:** [ebay-clothing-item-specifics.csv](ebay-clothing-item-specifics.csv)
+
+On eBay, buyers narrow clothing search with filters like **Size**, **Brand**, **Colour** and **Department**. Those filters read your **item specifics**. If a field is empty, your item can drop out when a buyer uses that filter. This checklist covers every field a clothing listing needs, with a filled demo (a linen shirt from the made-up brand Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Fill in** the **Your value** column with the garment in your hand: label first, then the tape measure.
+3. **Mark** each row **Y** in the **Done** column.
+4. **Copy** the values into the eBay listing form. eBay shows which fields are required for your category, so check those first.
+
+### The fields that matter most
+| Field | What to write |
+|---|---|
+| **Title (80 characters)** | Brand, department, item type, size, colour, material, then 1 or 2 style words. Check the length with the free [title checker](https://legacyroar7-maker.github.io/shop-tools/). |
+| **Condition** | Pick the closest option, then name every flaw in the condition description. |
+| **Brand** | Exactly as on the label. Use Unbranded if there is none. |
+| **Department** | Women, Men, Unisex Adults, Girls, Boys. |
+| **Size + Size Type** | The size on the label, plus Regular, Petite, Plus or Tall. |
+| **Colour** | The main colour buyers would call it. |
+| **Material** | Main fabric from the care label. |
+| **Measurements** | Flat measurements in cm and inches. Sizes differ between brands, so buyers trust numbers more than labels. |
+
+### Quick checklist before you list
+- [ ] Title is 80 characters or less and starts with brand and item type
+- [ ] Condition picked and every flaw written down
+- [ ] Brand, Department, Size, Size Type, Colour filled in
+- [ ] Style, Material, Fit, Sleeve Length, Pattern filled in where they fit
+- [ ] Measurements added (tops: pit to pit, length, sleeve; bottoms: waist, inseam, rise)
+- [ ] Photos: front, back, label, care label, fabric close-up, flaws, tape measure
+
+### Common mistakes
+- **Size only in the title.** The Size filter reads the item specific, not the title. Fill in both.
+- **Writing "see photos" for flaws.** Buyers want flaws in words too. It also helps if there is a return dispute.
+- **Guessing the material.** Copy it from the care label. If the label is gone, say so.
+- **Measuring with the garment on a hanger or a person.** Lay it flat on a table and smooth it out first.
+- **Using "Vintage" for anything old-looking.** Only use it when the item is truly old.
 
 ---
 
