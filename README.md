@@ -8,8 +8,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 1. [Shopify product CSV import template](#1-shopify-product-csv-import-template)
 2. [Etsy listing planner](#2-etsy-listing-planner)
 3. [eBay item specifics checklist for clothing](#3-ebay-item-specifics-checklist-for-clothing)
+4. [Vinted and Depop listing checklist](#4-vinted-and-depop-listing-checklist)
 
-More templates for Vinted and Depop are coming soon.
+More templates are coming soon: a resale photo checklist and an AEO FAQ block for product pages.
 
 ---
 
@@ -129,6 +130,75 @@ On eBay, buyers narrow clothing search with filters like **Size**, **Brand**, **
 - **Guessing the material.** Copy it from the care label. If the label is gone, say so.
 - **Measuring with the garment on a hanger or a person.** Lay it flat on a table and smooth it out first.
 - **Using "Vintage" for anything old-looking.** Only use it when the item is truly old.
+
+---
+
+## 4. Vinted and Depop listing checklist
+
+**File:** [vinted-depop-listing-checklist.csv](vinted-depop-listing-checklist.csv)
+
+On Vinted and Depop, most buyers do not scroll the whole app. They pick a **category**, then filter by **size**, **brand**, **condition**, **colour** and **price**. If a field is empty or wrong, your item can drop out of those results. This checklist covers photos, text, the fields buyers filter by, pricing and shipping, with a filled demo (a wool cardigan from the made-up brand Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Look** at the **App** column. Rows marked **Both** are for Vinted and Depop. The rest are for one app only.
+3. **Fill in** the **Your value** column with the item in your hand: labels first, then the tape measure.
+4. **Mark** each row **Y** in the **Done** column, then copy the values into the app.
+
+### Photos: the 8 shots
+| # | Shot | Why |
+|---|---|---|
+| 1 | **Whole item, front** | This is the photo buyers see in the feed. |
+| 2 | **Back** | Buyers want to see both sides. |
+| 3 | **Brand label** | Shows the brand is real. |
+| 4 | **Size and care label** | Size and fabric in one photo. |
+| 5 | **Fabric close-up** | True colour and texture. |
+| 6 | **Each flaw** | One clear photo per flaw. |
+| 7 | **Tape measure** | Pit to pit or waist, laid flat. |
+| 8 | **Worn (optional)** | Shows the fit. |
+
+Use daylight, a plain background and no filters. Square photos look best on Depop.
+
+### Title and description
+| App | What buyers see first | What to write |
+|---|---|---|
+| **Vinted** | The title | Short: brand + item type + key detail + size. Vinted also uses these words to suggest a category. |
+| **Depop** | The first words of the description | Start with brand, item type, size and colour. Add up to 5 hashtags with words that are not already in your text. |
+
+Then, in the description on both apps: fit, measurements in cm, fabric, how often it was worn, and every flaw with where it is.
+
+### The fields buyers filter by
+| Field | Rule |
+|---|---|
+| **Category** | Pick the most exact one, all the way down. It decides which other fields you see. |
+| **Brand** | Exactly as on the label. No label? Pick the no-brand option. Never guess a famous brand. |
+| **Size** | The size on the label. Real measurements go in the description. |
+| **Condition** | Pick the closest option and read its short definition in the app. If unsure, pick the lower one. |
+| **Colour** | The main colour a buyer would call it. |
+| **Material (Vinted)** | Main fabric from the care label. |
+| **Source, age and style (Depop)** | Fill in every one that fits, for example preloved, modern, minimal. |
+
+### Pricing tips
+- **Check sold items, not live ones.** Search the same brand and item, then look at what really sold.
+- **Leave a little room for offers.** Decide your lowest price before you list.
+- **Turn on bundle discounts** if you sell many items.
+- **Price by condition.** A worn item with flaws should sit below the same item in better condition.
+
+### Quick checklist before you list
+- [ ] Main photo shows the whole item, in daylight, on a plain background
+- [ ] Brand label, size and care label, and every flaw photographed
+- [ ] Title (Vinted) or first line (Depop) has brand, item, size and colour
+- [ ] Category, brand, size, condition and colour filled in
+- [ ] Measurements in cm and every flaw written in the description
+- [ ] Price checked against sold items
+- [ ] Parcel size picked from the item packed, not guessed
+
+### Common mistakes
+- **Dark or filtered photos.** Buyers cannot see the true colour, so they scroll past or ask and wait.
+- **Size only in the text.** The size filter reads the size field. Fill in both.
+- **"Good condition" with a hidden flaw.** It leads to returns and bad ratings. Show it and say it.
+- **Pricing from live listings.** Live prices are what people hope for. Sold prices are what buyers paid.
+- **Picking a parcel size too small.** The parcel can be refused or cost more to send.
 
 ---
 
