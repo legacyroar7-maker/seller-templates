@@ -9,8 +9,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 2. [Etsy listing planner](#2-etsy-listing-planner)
 3. [eBay item specifics checklist for clothing](#3-ebay-item-specifics-checklist-for-clothing)
 4. [Vinted and Depop listing checklist](#4-vinted-and-depop-listing-checklist)
+5. [AEO FAQ block for product pages](#5-aeo-faq-block-for-product-pages)
 
-More templates are coming soon: a resale photo checklist and an AEO FAQ block for product pages.
+More templates are coming soon: a resale photo checklist and a product description structure.
 
 ---
 
@@ -199,6 +200,52 @@ Then, in the description on both apps: fit, measurements in cm, fabric, how ofte
 - **"Good condition" with a hidden flaw.** It leads to returns and bad ratings. Show it and say it.
 - **Pricing from live listings.** Live prices are what people hope for. Sold prices are what buyers paid.
 - **Picking a parcel size too small.** The parcel can be refused or cost more to send.
+
+---
+
+## 5. AEO FAQ block for product pages
+
+**File:** [product-faq-block.html](product-faq-block.html)
+
+Buyers now ask search engines and AI tools full questions, like "Is this mug dishwasher safe?" These tools answer from text they can read on your product page. A short FAQ with clear questions and direct answers gives them that text. This is the AEO part of SEO and AEO: write the answer buyers are looking for, in words a machine can quote. It makes your page easier to read and quote. It does not guarantee you will show up.
+
+The file has two parts, with a filled demo (a mug from the made-up brand Fernmoor):
+- **Part 1: the visible FAQ.** Plain HTML that buyers see on the page.
+- **Part 2: the same FAQ as JSON-LD.** Structured data (`FAQPage` from schema.org) that labels each question and answer for machines.
+
+### The 6 question types buyers ask
+| # | Type | Example question | The answer must include |
+|---|---|---|---|
+| 1 | **Size and fit** | What size is the Fernmoor Speckled Mug? | Real numbers: cm, ml, size chart or how it fits. |
+| 2 | **Materials** | What is it made of? | The main material, plus anything buyers check for (food-safe, allergy, vegan). |
+| 3 | **Who it is for** | Is it a good gift for a coffee lover? | Yes or no first, then the reason. |
+| 4 | **Care and use** | Can it go in the dishwasher? | What is fine, what to avoid. |
+| 5 | **Delivery** | When will it arrive? | Processing time in days. Made to order, if it is. |
+| 6 | **Problems and returns** | What if it arrives broken? | What the buyer does and what you do, with a time limit. |
+
+### Rules for good answers
+- **Answer in the first sentence.** "Yes, both are fine." Then add detail.
+- **Keep it to 1 to 3 sentences.** Short answers are easier to quote.
+- **Name the product in the question.** Then the answer still makes sense when it is quoted on its own.
+- **Use real numbers.** "350 ml", "3 to 5 working days". Not "large" or "fast".
+- **Only true facts.** No sales lines or promo codes in the answers. Write only what you can keep.
+- **Match the two parts word for word.** The JSON-LD must say exactly what the visible FAQ says.
+
+### Add it to Shopify in 5 steps
+1. **Edit** the file: change the questions and answers in Part 1, then copy the same text into Part 2.
+2. **Paste Part 1:** Products > open the product > in the description editor, click **Show HTML** (the `<>` button) > paste at the end > Save.
+3. **Make a template** for this product: Online Store > Themes > Customize > Products > Create template. Then set the product to use it (product page > Theme template).
+4. **Paste Part 2:** in that template, add a **Custom Liquid** block or section and paste Part 2 into it > Save. A Custom Liquid block shows on every product that uses the template, so keep one template per product, or ask a developer to load the FAQ from a metafield.
+5. **Test** the live page URL in the [Schema Markup Validator](https://validator.schema.org/). It should find one `FAQPage` with 6 questions and no errors.
+
+**Etsy, eBay, Vinted and Depop** do not allow code in listings. Copy only the questions and answers from Part 1 as plain text at the end of your description.
+
+### Common mistakes
+- **Expecting FAQ dropdowns in Google.** Google now shows FAQ rich results only for a small group of government and health sites. The value is clear answers on your page, not a special search look.
+- **JSON-LD with no visible FAQ.** The structured data must describe text that is really on the page.
+- **Two FAQPage blocks on one page.** Some themes and apps add one already. Check with the validator and keep one.
+- **The same FAQ on every product.** "What size is it?" needs a different answer for each product.
+- **Vague answers.** "It depends" or "Contact us" gives a buyer and an AI tool nothing to use.
 
 ---
 
