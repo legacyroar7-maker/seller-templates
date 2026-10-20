@@ -10,8 +10,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 3. [eBay item specifics checklist for clothing](#3-ebay-item-specifics-checklist-for-clothing)
 4. [Vinted and Depop listing checklist](#4-vinted-and-depop-listing-checklist)
 5. [AEO FAQ block for product pages](#5-aeo-faq-block-for-product-pages)
+6. [Resale clothing photo checklist](#6-resale-clothing-photo-checklist)
 
-More templates are coming soon: a resale photo checklist and a product description structure.
+More templates are coming soon: a product description structure and a product photo shot list for Etsy and Shopify.
 
 ---
 
@@ -158,7 +159,7 @@ On Vinted and Depop, most buyers do not scroll the whole app. They pick a **cate
 | 7 | **Tape measure** | Pit to pit or waist, laid flat. |
 | 8 | **Worn (optional)** | Shows the fit. |
 
-Use daylight, a plain background and no filters. Square photos look best on Depop.
+Use daylight, a plain background and no filters. Square photos look best on Depop. For set-up, label close-ups and photo limits, see the [resale clothing photo checklist](#6-resale-clothing-photo-checklist).
 
 ### Title and description
 | App | What buyers see first | What to write |
@@ -246,6 +247,74 @@ The file has two parts, with a filled demo (a mug from the made-up brand Fernmoo
 - **Two FAQPage blocks on one page.** Some themes and apps add one already. Check with the validator and keep one.
 - **The same FAQ on every product.** "What size is it?" needs a different answer for each product.
 - **Vague answers.** "It depends" or "Contact us" gives a buyer and an AI tool nothing to use.
+
+---
+
+## 6. Resale clothing photo checklist
+
+**File:** [resale-photo-checklist.csv](resale-photo-checklist.csv)
+
+On eBay, Vinted, Depop and Vestiaire Collective, buyers cannot touch the item. Your photos have to show what it looks like, what brand and size it is, and what is wrong with it. This checklist walks you through set-up, the 8 shots and the checks after, with a filled demo (a denim jacket from the made-up brand Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Do the set-up rows first** (light, background, phone). They take 5 minutes and fix most bad photos.
+3. **Take the 8 shots** in order and mark each row **Y** in the **Done** column.
+4. **Do the after rows** before you upload: check, light edits, photo order.
+
+### Set-up: light, background, phone
+| What | Do this | Not this |
+|---|---|---|
+| **Light** | Daylight from a big window. Turn off ceiling lights. | Flash, direct sun, yellow room lights at night. |
+| **Background** | Plain and light: a white sheet, a white wall or a light grey board. | Bed covers with patterns, carpets, mirrors with a messy room. |
+| **Item** | Steamed, lint rolled, pockets empty, buttons and zips done up. | Creases, pet hair, a crumpled item. |
+| **Style** | One style for all main shots: flat lay, hanger on a plain wall, or worn. | Mixing styles and backgrounds in one listing. |
+| **Phone** | Clean lens, normal 1x lens, grid on, tap to focus, phone held level. | Digital zoom, beauty filters, shooting at an angle. |
+
+### The 8 shots
+| # | Shot | How | Check |
+|---|---|---|---|
+| 1 | **Whole item, front** | Fill most of the frame. Straight above (flat lay) or straight in front. | Nothing cut off, item straight. This is the photo buyers see first. |
+| 2 | **Back** | Same distance and angle as shot 1. | Matches shot 1 from the other side. |
+| 3 | **Brand label** | Close-up, label flat, fill the frame. | Every letter can be read. Buyers use it to check the brand is real. |
+| 4 | **Size and care label** | Unfold the label so the text is flat. | Size and fabric can be read. |
+| 5 | **Fabric close-up** | Close to the fabric, in daylight. | Colour on screen matches the item in your hand. |
+| 6 | **Details** | Buttons, zips, pockets, prints, hardware. | Each one is sharp. |
+| 7 | **Each flaw** | One photo per flaw. Point to it with a finger or a pen. | Every flaw in your description has a photo. |
+| 8 | **Measurement or fit** | Tape measure on the item laid flat, or a worn photo. | Numbers on the tape can be read. |
+
+### Label close-ups: 4 quick rules
+- **Get close, then step back a little** until the phone can focus. Tap the label on the screen.
+- **Hold the label flat** with one finger at the edge, not over the text.
+- **No flash.** It makes shiny labels white and hard to read.
+- **Shoot every label:** brand, size, care and fabric. If a label was cut out, take a photo of where it was and say so in the text.
+
+### What each app asks for
+| App | Photos | Notes |
+|---|---|---|
+| **eBay** | Up to 24 | At least 500 x 500 pixels, about 1600 x 1600 is best. No logos, badges or watermarks on photos. |
+| **Vinted** | Up to 20 | Show every flaw in photos and in the description. For the same item in other sizes, photograph each size label. |
+| **Depop** | Only a few slots, plus 1 video | Most sellers had 4 photo slots when this was written. Square photos look best. Use shots 1, 3, 7 and 8, and show the rest in the video. |
+| **Vestiaire Collective** | The form tells you | The listing form asks for set shots in a set order. Proof of origin (receipt, certificate or serial number) is uploaded on its own and is not shown to buyers. No stock photos. |
+
+Limits change. Check the app when you list.
+
+### Quick checklist before you upload
+- [ ] Daylight, no flash, plain light background
+- [ ] Item steamed, lint rolled, pockets empty
+- [ ] Shots 1 and 2: whole item front and back, nothing cut off
+- [ ] Shots 3 and 4: brand, size and care labels can be read
+- [ ] Shot 5: colour on screen matches the real item
+- [ ] Shot 7: one photo for every flaw
+- [ ] Shot 8: tape measure numbers can be read
+- [ ] No filters, no text or logos on photos, shot 1 is first
+
+### Common mistakes
+- **Photos at night under room lights.** Colours turn yellow, and buyers get a different colour than they saw.
+- **Stock photos or photos from the brand's website.** Buyers want this item, not a new one. Some apps do not allow it.
+- **Hiding flaws in the last photo or leaving them out.** It leads to returns and "not as described" claims. Show them and say them.
+- **Labels that cannot be read.** Buyers then ask and wait, or move on.
+- **A busy background.** The item gets lost, and the first photo looks messy in the feed.
 
 ---
 
