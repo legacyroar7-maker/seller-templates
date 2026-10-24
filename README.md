@@ -11,8 +11,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 4. [Vinted and Depop listing checklist](#4-vinted-and-depop-listing-checklist)
 5. [AEO FAQ block for product pages](#5-aeo-faq-block-for-product-pages)
 6. [Resale clothing photo checklist](#6-resale-clothing-photo-checklist)
+7. [Product description structure](#7-product-description-structure)
 
-More templates are coming soon: a product description structure and a product photo shot list for Etsy and Shopify.
+More templates are coming soon: a product photo shot list for Etsy and Shopify and a Shopify collection page checklist.
 
 ---
 
@@ -315,6 +316,98 @@ Limits change. Check the app when you list.
 - **Hiding flaws in the last photo or leaving them out.** It leads to returns and "not as described" claims. Show them and say them.
 - **Labels that cannot be read.** Buyers then ask and wait, or move on.
 - **A busy background.** The item gets lost, and the first photo looks messy in the feed.
+
+---
+
+## 7. Product description structure
+
+**File:** [product-description-template.html](product-description-template.html)
+
+A good product description answers the buyer's questions in the order they ask them: What is it? Why is it good for me? Will it fit? How do I look after it? This structure puts the answers in 5 blocks, so buyers find what they need fast and search engines and AI tools get clear text to read. That is the core of SEO and AEO for a product page. It makes your page easier to understand and quote. It does not guarantee rankings or sales.
+
+The file has a blank template (Part 1) and a filled demo (Part 2): a waxed canvas tote from the made-up brand Fernmoor.
+
+### The 5 blocks
+| # | Block | Length | What to write |
+|---|---|---|---|
+| 1 | **Hook** | 1 or 2 sentences | What it is, who it is for, and the main reason to buy. Use the main search phrase once, the way a buyer would type it. |
+| 2 | **3 benefits** | 3 bullet points | Start each one with what the buyer gets, then the fact that proves it. |
+| 3 | **Specs** | 4 to 8 lines | Size, weight, material, colour, what is in the box. Real numbers with units. |
+| 4 | **Care** | 2 or 3 sentences | How to clean it, what to avoid, how to keep it looking good. |
+| 5 | **FAQ** | 2 or 3 questions | The questions buyers ask most. Answer in the first sentence. For a full FAQ with structured data, see [section 5](#5-aeo-faq-block-for-product-pages). |
+
+### Feature or benefit? 3 before and after examples
+A feature is what the product has. A benefit is what the buyer gets from it. Lead with the benefit, then prove it with the feature.
+
+| Before (feature only) | After (benefit first, then the fact) |
+|---|---|
+| Padded laptop pocket. | **Your laptop stays safe.** A padded inside pocket fits most laptops up to 15 inches. |
+| Waxed cotton canvas. | **Light rain runs off.** The cotton canvas is waxed, so drops bead up instead of soaking in. |
+| 28 cm handle drop. | **Comfortable on your shoulder.** The 28 cm handle drop is long enough to wear over a coat. |
+
+### The demo, as it reads on the page
+> The Fernmoor Waxed Canvas Tote is a work bag for people who carry a laptop, lunch and a water bottle every day. It stays upright, closes with a zip and shrugs off light rain.
+>
+> - **Your laptop stays safe.** A padded inside pocket fits most laptops up to 15 inches.
+> - **Light rain runs off.** The cotton canvas is waxed, so drops bead up instead of soaking in.
+> - **Comfortable on your shoulder.** The leather handles have a 28 cm drop, long enough to wear over a coat.
+>
+> **Details:** 40 x 36 x 12 cm (15.7 x 14.2 x 4.7 in), about 17 litres. 850 g. Waxed cotton canvas, leather handles, cotton lining. Olive green. In the box: 1 tote and a care card.
+>
+> **Care:** Wipe with a damp cloth and let it dry in the air. Do not put it in the washing machine or tumble dryer.
+>
+> **Is the Fernmoor Waxed Canvas Tote waterproof?** No, it is water-resistant. It handles light rain, but it is not made for heavy rain.
+
+### Plain-text template for Etsy, eBay, Vinted and Depop
+Etsy and Vinted descriptions are plain text, and eBay does not allow scripts. Copy this and replace the [brackets]:
+
+```text
+[Product name] is a [what it is] for [who it is for]. [Main reason to buy].
+
+- [Benefit 1]. [Fact behind it].
+- [Benefit 2]. [Fact behind it].
+- [Benefit 3]. [Fact behind it].
+
+DETAILS
+Size: [cm and inches]
+Weight: [g]
+Material: [main material]
+Colour: [colour]
+In the box: [what the buyer gets]
+
+CARE
+[How to clean it]. [What to avoid].
+
+QUESTIONS
+[Question 1]? [Answer].
+[Question 2]? [Answer].
+```
+
+**Resale (Vinted, Depop, eBay pre-owned):** keep the hook short, skip the benefits, and add a **Condition** line with every flaw and where it is. Put measurements in the specs.
+
+### Where to use it
+| Platform | Tip |
+|---|---|
+| **Shopify** | Paste Part 1 or Part 2 in the description editor with **Show HTML** (the `<>` button). Keep headings small (`h3`), because your theme already uses a big heading for the product title. |
+| **Etsy** | Buyers see the first lines first, so the hook matters most. Put shipping and shop policies in your shop settings, not in every description. |
+| **eBay** | Many buyers read on a phone. Keep the specs as short lines, and fill in item specifics too, because filters read those, not your text. |
+| **Vinted and Depop** | Use the short resale version. On Depop, the first words of the description show first, so start with brand, item, size and colour. |
+
+### Quick checklist before you publish
+- [ ] The first sentence says what it is and who it is for
+- [ ] The main search phrase appears once in the hook, in natural words
+- [ ] 3 benefits, each with a fact behind it
+- [ ] Specs have real numbers and units, in cm and inches where it helps
+- [ ] Care says what to do and what to avoid
+- [ ] 2 or 3 FAQ answers that start with yes, no or a number
+- [ ] Every claim is true for this exact product
+
+### Common mistakes
+- **A wall of text.** Buyers scan. Short blocks and bullet points are easier to read on a phone.
+- **Only adjectives.** "Premium, stylish, high quality" tells a buyer nothing. Numbers and facts do.
+- **Saying "waterproof" when it is water-resistant.** Use the exact word, or you get returns and complaints.
+- **The same description on every product.** Each product needs its own hook, specs and answers. Copied text also helps no one in search.
+- **Keyword stuffing.** Repeating the same phrase 5 times reads badly. Use it once in the hook and once more only if it fits.
 
 ---
 
