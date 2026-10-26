@@ -12,8 +12,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 5. [AEO FAQ block for product pages](#5-aeo-faq-block-for-product-pages)
 6. [Resale clothing photo checklist](#6-resale-clothing-photo-checklist)
 7. [Product description structure](#7-product-description-structure)
+8. [Product photo shot list for Etsy and Shopify](#8-product-photo-shot-list-for-etsy-and-shopify)
 
-More templates are coming soon: a product photo shot list for Etsy and Shopify and a Shopify collection page checklist.
+More templates are coming soon: a Shopify collection page checklist and a Shopify SEO and AEO fields checklist.
 
 ---
 
@@ -408,6 +409,74 @@ QUESTIONS
 - **Saying "waterproof" when it is water-resistant.** Use the exact word, or you get returns and complaints.
 - **The same description on every product.** Each product needs its own hook, specs and answers. Copied text also helps no one in search.
 - **Keyword stuffing.** Repeating the same phrase 5 times reads badly. Use it once in the hook and once more only if it fits.
+
+---
+
+## 8. Product photo shot list for Etsy and Shopify
+
+**File:** [product-photo-shot-list.csv](product-photo-shot-list.csv)
+
+Buyers cannot pick up your product. Your photos have to show what it is, how big it is, what it feels like and what arrives in the box. This shot list gives you 10 shots in the order buyers want them, with a tip for Etsy and Shopify on each one, and a filled demo (a ceramic vase from the made-up brand Fernmoor). For second-hand clothing, use the [resale clothing photo checklist](#6-resale-clothing-photo-checklist) instead.
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Plan** all 10 shots before you start, and write your own idea for each one in the demo column.
+3. **Shoot** them in one session, with the same light and background, and mark each row **Y** in the **Done** column.
+4. **Upload** them in the same order. Shot 1 always goes first.
+
+### The 10 shots
+| # | Shot | What it shows the buyer |
+|---|---|---|
+| 1 | **Main photo** | What the product is, in one look. Plain light background, space on every side. |
+| 2 | **Second angle** | The back, side or top. |
+| 3 | **Scale** | How big it really is: in a hand or next to a mug, a book or a phone. |
+| 4 | **Size with numbers** | Height, width and depth in cm and inches, written beside the product. |
+| 5 | **Detail close-up** | Texture, finish, stitching or hardware. |
+| 6 | **Colours and options** | Every colour or size side by side, then one photo of each. |
+| 7 | **In use (lifestyle)** | The product in a real home or on a person. |
+| 8 | **What is in the box** | Everything the buyer gets, laid out from above. |
+| 9 | **Packaging or gift** | How it arrives. |
+| 10 | **Made by hand or personal touch** | Hands at work, or a proof of the personalization. |
+
+**Bonus:** a short video of the product turning or in use.
+
+### Short rules
+- **One look for the whole set.** Same light, same background, same shape (square or landscape) for every photo.
+- **Daylight, no flash.** Shoot by a window and turn off ceiling lights so colours stay true.
+- **Fill the frame, but leave a border.** Sites crop photos for thumbnails. Space around the product stops it getting cut off.
+- **No text on the first photo.** Numbers and short labels are fine from shot 2 onward.
+- **Real colours only.** Crop and brighten a little, but do not change colours. Buyers return items that look different.
+- **Big, sharp files.** Aim for at least 2000 pixels on each side so zoom stays sharp.
+- **Write alt text for every photo.** Say what is in it in plain words, for example "Fernmoor ribbed vase in sand, held in one hand to show size". It helps buyers who use screen readers and gives search engines and AI tools clear text about the image.
+
+### Etsy and Shopify at a glance
+| | Etsy | Shopify |
+|---|---|---|
+| **How many** | Up to 20 photos and 2 videos per listing | Many more than you need. 6 to 10 good photos cover most products. |
+| **Shape** | First photo landscape or square. It sets the shape for the rest. | Square is the safe choice. Keep one shape for all photos. |
+| **Size** | At least 2000 pixels wide and high is recommended | 2048 x 2048 is a common square size. Up to 20 MB per image. |
+| **Options** | Link photos to variations (Variations > Link photos) | One image per variant, so the photo changes when the buyer picks it |
+| **Video** | 5 to 15 seconds, sound is removed | MP4 or MOV, keep it short |
+| **Alt text** | Add it in the photo editor of each listing | Add it on each image in the product page (Add alt text) |
+
+Limits change. Check the site when you list.
+
+### Quick checklist before you upload
+- [ ] Shot 1 shows the whole product, on a plain light background, with no text
+- [ ] One shot shows scale and one shows the size in numbers
+- [ ] Close-up colour matches the real product
+- [ ] Every colour or option has its own photo, linked to its variant
+- [ ] What is in the box matches the description
+- [ ] All photos share one light, one background and one shape
+- [ ] Alt text written for every photo
+- [ ] Photos uploaded in order, shot 1 first
+
+### Common mistakes
+- **A busy first photo.** Props, text or a dark room make the thumbnail hard to read in search.
+- **No sense of size.** Without a scale shot, buyers guess, then return it when it is smaller than they thought.
+- **Mixed backgrounds and shapes.** A gallery that jumps between square and tall photos looks messy.
+- **Only lifestyle photos.** Mood is nice, but buyers still need a clear shot of the product itself.
+- **Stock or AI-changed photos that do not match the real product.** Buyers get something different from what they saw. Show the real item.
 
 ---
 
