@@ -13,8 +13,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 6. [Resale clothing photo checklist](#6-resale-clothing-photo-checklist)
 7. [Product description structure](#7-product-description-structure)
 8. [Product photo shot list for Etsy and Shopify](#8-product-photo-shot-list-for-etsy-and-shopify)
+9. [Shopify collection page checklist](#9-shopify-collection-page-checklist)
 
-More templates are coming soon: a Shopify collection page checklist and a Shopify SEO and AEO fields checklist.
+More templates are coming soon: a Shopify SEO and AEO fields checklist for every product.
 
 ---
 
@@ -477,6 +478,97 @@ Limits change. Check the site when you list.
 - **Mixed backgrounds and shapes.** A gallery that jumps between square and tall photos looks messy.
 - **Only lifestyle photos.** Mood is nice, but buyers still need a clear shot of the product itself.
 - **Stock or AI-changed photos that do not match the real product.** Buyers get something different from what they saw. Show the real item.
+
+---
+
+## 9. Shopify collection page checklist
+
+**File:** [shopify-collection-page-checklist.csv](shopify-collection-page-checklist.csv)
+
+A collection page is a shelf in your shop: "Ceramic vases", "Linen shirts", "Gifts under 50". Buyers reach it from your menu, from search engines and from AI answers. It needs a clear name, a short intro, the right products, filters that help, and links to the next shelf. This checklist walks through every field in 5 parts, with a filled demo (a "Ceramic Vases" collection from the made-up brand Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Open** your collection in Shopify: Products > Collections.
+3. **Go** row by row. Write your text in the **Your value** column and mark each row **Y** in the **Done** column.
+4. **Preview** the live page on a phone before you share it.
+
+### Part 1. Title and intro text
+| Field | What to write |
+|---|---|
+| **Collection title** | The words buyers type. "Ceramic Vases", not "Our Lovely Pieces" or "Drop 7". It is usually the big heading on the page. |
+| **Intro text** (Description box) | 2 to 4 short sentences, about 40 to 80 words. Long text above the products pushes them off a phone screen. |
+| **Collection image** | One clear photo in the same style as your product photos, with alt text. Check it on a phone, some themes crop it. |
+
+**Intro formula:** what is in it + who it is for + the choices (sizes, colours, materials) + one helpful fact + a link to a related collection.
+
+> **Demo:** Handmade ceramic vases for dried flowers, fresh stems and shelves. Choose from 3 heights (12, 20 and 30 cm) and 4 glazes: sand, sage, chalk and charcoal. Every vase is glazed inside and holds water. Pair one with our **ceramic mugs** (a link to that collection) for a matching gift.
+
+### Part 2. Products and sort order
+| Field | What to set |
+|---|---|
+| **Collection type** | **Manual:** you add each product by hand. **Smart:** Shopify adds every product that matches your rules. You cannot switch the type after you save, so pick Smart for shelves that grow. |
+| **Conditions** (Smart only) | One clear rule, for example **Product type is equal to Vase**. Write product type and tags the same way on every product, or products go missing. |
+| **Sort** | Best selling, Newest, Price or Manually. Put your clearest, best-stocked products in the first row. |
+| **Product count** | Enough products to compare. Merge shelves with only 1 or 2 products, and keep empty collections out of your menu. |
+
+### Part 3. Filters
+Filters let buyers narrow a shelf by colour, size or price. Set them up in the free **Search & Discovery** app from Shopify: Apps > Search & Discovery > Filters > Add filter. Your theme must show them. Most Online Store 2.0 themes, like Dawn, do.
+
+| Filter | Why buyers use it | Comes from |
+|---|---|---|
+| **Availability** | Hide sold-out items | Stock levels |
+| **Price** | Stay inside a budget | Variant prices |
+| **Colour** | Match a room or an outfit | Variant option or metafield |
+| **Size** | Find what fits | Variant option or metafield |
+| **Material** | Check what it is made of | Metafield or tags |
+
+4 to 6 filters is usually enough. Filters read your product data, so clean it first: if one product says "Grey" and another says "Gray", buyers see two options.
+
+### Part 4. SEO and AEO fields
+Find these on the collection page: **Search engine listing > Edit**.
+
+| Field | Rule | Demo |
+|---|---|---|
+| **SEO title** (Page title) | About 60 characters or less. Main words first, then one key detail, then your brand. | Handmade Ceramic Vases in 4 Glazes \| Fernmoor (45) |
+| **Meta description** | About 155 characters or less. What is on the shelf, one reason to look, the main choices. | Handmade ceramic vases in 3 sizes and 4 glazes, glazed inside to hold water. Shop sand, sage, chalk and charcoal vases from Fernmoor. (133) |
+| **URL handle** | Short, lowercase, dashes. If you change it later, keep **Create a URL redirect** ticked so old links still work. | `/collections/ceramic-vases` |
+| **Image alt text** | What is in the photo, in plain words. No keyword lists. | Three Fernmoor ceramic vases in sand, sage and charcoal on a white shelf |
+| **FAQ block** (AEO) | 3 to 5 real buyer questions with short answers, below the products. Answer in the first sentence. | Do the vases hold water? Yes, every vase is glazed inside and holds water for fresh flowers. |
+
+**About the FAQ block:** buyers ask AI tools full questions, and those tools answer from text they can read. Clear questions and direct answers on the page give them that text. Many themes have a **Collapsible content** section you can add to the collection template (Online Store > Themes > Customize). If each shelf needs its own questions, make a separate collection template and pick it under **Theme template** on the collection page. Answer rules are in the [AEO FAQ block](#5-aeo-faq-block-for-product-pages) section.
+
+You can check title and meta lengths with the free [title checker](https://legacyroar7-maker.github.io/shop-tools/).
+
+### Part 5. Internal links and menu
+| Link | What to do | Demo |
+|---|---|---|
+| **Main menu** | Add the collection so buyers find it in one or two clicks: Content > Menus (older admins: Online Store > Navigation). | Home decor > Ceramic Vases |
+| **Links in the intro** | Link 1 or 2 related collections. The link text says where it goes, never "click here". | ceramic mugs |
+| **Links from products** | One line at the end of each product description that links back to the collection. | See all ceramic vases |
+| **Related collections** | Add a **Collection list** section under the products with 2 to 4 shelves that make sense next. | Ceramic Mugs, Table Decor, Gifts under 50 |
+
+### Quick checklist before you publish
+- [ ] Title uses the words buyers type
+- [ ] Intro is 2 to 4 sentences and the first products still show on a phone
+- [ ] Right products are in, nothing empty or broken
+- [ ] First row shows your clearest, in-stock products
+- [ ] Filters show, and each value has one spelling
+- [ ] SEO title about 60 characters, meta description about 155
+- [ ] Short URL handle, redirect ticked if you changed it
+- [ ] Image alt text written
+- [ ] 3 to 5 FAQ answers, each one true
+- [ ] Collection is in the menu and every link works
+
+### Common mistakes
+- **The same intro on every collection.** Each shelf needs its own words, or the pages look alike to buyers and search engines.
+- **Names only you understand.** "Drop 7" or "Autumn vibes" tells a buyer nothing. Use the product words.
+- **A wall of text above the products.** Put the short intro on top. Longer help goes in the FAQ below.
+- **Messy filter values.** "Grey", "gray" and "GREY" become three options.
+- **Changing the handle with no redirect.** Old links and saved bookmarks break.
+- **Tiny or empty shelves in the menu.** Buyers click, find nothing, and leave.
+
+These steps make the page clearer for buyers, search engines and AI tools. Nobody can promise a ranking.
 
 ---
 
