@@ -14,8 +14,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 7. [Product description structure](#7-product-description-structure)
 8. [Product photo shot list for Etsy and Shopify](#8-product-photo-shot-list-for-etsy-and-shopify)
 9. [Shopify collection page checklist](#9-shopify-collection-page-checklist)
+10. [Shopify SEO and AEO fields checklist for every product](#10-shopify-seo-and-aeo-fields-checklist-for-every-product)
 
-More templates are coming soon: a Shopify SEO and AEO fields checklist for every product.
+More templates are coming soon: a Shopify product page checklist for before you go live.
 
 ---
 
@@ -569,6 +570,87 @@ You can check title and meta lengths with the free [title checker](https://legac
 - **Tiny or empty shelves in the menu.** Buyers click, find nothing, and leave.
 
 These steps make the page clearer for buyers, search engines and AI tools. Nobody can promise a ranking.
+
+---
+
+## 10. Shopify SEO and AEO fields checklist for every product
+
+**File:** [shopify-product-seo-aeo-fields-checklist.csv](shopify-product-seo-aeo-fields-checklist.csv)
+
+Every Shopify product has a set of small fields that search engines, AI tools and your own shop filters read: SEO title, meta description, URL handle, image alt text, category, type and tags. They take a few minutes per product, and they are easy to skip. This checklist lists all of them in 16 rows, with where to find each one in Shopify admin, the rule, a live character count and a filled demo (the Speckled Mug from the made-up brand Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel. Make one copy per product.
+2. **Open** the product in Shopify: Products > click the product.
+3. **Go** row by row. Write your text in the **Your text** column. The **Characters used** column counts it for you on the rows with a limit.
+4. **Paste** each value into Shopify, press **Save**, and mark the row **Y** in the **Done** column.
+
+### Part 1. Search engine listing
+Scroll to the bottom of the product page: **Search engine listing > Edit** (pencil icon).
+
+| Field | Rule | Demo |
+|---|---|---|
+| **SEO title** (Page title) | About 60 characters or less. What it is, one key detail, then your brand. If you leave it blank, Shopify uses the product title. | Speckled Stoneware Mug, 350 ml, Sage Green \| Fernmoor (53) |
+| **Meta description** | About 155 characters or less. What it is, 2 or 3 facts buyers check, one reason to click. Only true facts. | Handmade speckled stoneware mug in sage green. Holds 350 ml, dishwasher and microwave safe. Ships in a gift box in 3 to 5 working days. (135) |
+| **URL handle** | Short, lowercase, dashes. Drop filler words like "the", "best" or "new". If you change it later, keep **Create a URL redirect** ticked so old links still work. | `/products/speckled-stoneware-mug` |
+
+### Part 2. Images
+| Field | Rule | Demo |
+|---|---|---|
+| **Image file name** | Rename the photo before you upload. Shopify keeps the name in the image link. | `speckled-stoneware-mug-sage.jpg`, not `IMG_4821.jpg` |
+| **Main image alt text** | Media > click the photo > **Alt text**. Say what is in the photo in plain words. About 125 characters or less. No keyword lists, and do not start with "Image of". | Fernmoor speckled stoneware mug in sage green on a wooden table |
+| **Alt text for every other photo** | Say what is different in this photo: the detail, the size, the use. | Close-up of the speckled glaze and curved handle of the sage green mug |
+
+Alt text helps buyers who use screen readers, and it tells search engines and AI tools what the photo shows. What to shoot is in the [product photo shot list](#8-product-photo-shot-list-for-etsy-and-shopify).
+
+### Part 3. Product organization
+| Field | Where | Rule | Demo |
+|---|---|---|---|
+| **Category** | Product page > Category | Type the product word and pick the most exact match from Shopify's list. It decides which extra fields you can fill. | Mugs |
+| **Category metafields** | Fields shown under Category | Fill every one that fits, with the same spelling on every product. They feed filters and some sales channels. | Color: Green. Material: Stoneware. |
+| **Type** | Product organization > Type | Your own word for what it is, same spelling on every similar product. | Mug |
+| **Vendor** | Product organization > Vendor | Your brand, or the maker's brand if you resell. | Fernmoor |
+| **Collections** | Product organization > Collections | Every shelf it belongs on, usually 1 to 3. | Ceramic Mugs, Gifts under 50 |
+| **Tags** | Product organization > Tags | About 3 to 8, lowercase, one spelling each. Tags help your own sorting, smart collections and filters. They are not a keyword list for Google. | stoneware, handmade, gift idea, dishwasher safe |
+
+### Part 4. AEO content on the page
+Buyers ask AI tools full questions, like "Can this mug go in the dishwasher?" Those tools answer from text they can read on your page. Give them clear facts.
+
+| Field | Rule | Demo |
+|---|---|---|
+| **Key facts in the description** | Real numbers: size, capacity, material, care, delivery time. Not "large" or "fast". Full structure in [Product description structure](#7-product-description-structure). | 350 ml, 9.5 cm tall, stoneware, dishwasher and microwave safe, ships in 3 to 5 working days |
+| **FAQ block** | 3 to 6 real buyer questions. Answer in the first sentence. HTML and JSON-LD in the [AEO FAQ block](#5-aeo-faq-block-for-product-pages). | Can the Fernmoor Speckled Mug go in the dishwasher? Yes, and in the microwave too. |
+| **Barcode (GTIN)** | Variants > open the variant > Barcode. Only the real number from the packaging. Never make one up. Handmade items often have none. | None (handmade) |
+
+### Part 5. Final check
+Read the **Search engine listing** preview in Shopify, then open the live page on a phone. Title and description should not be cut off in a bad place, every photo should load, and each alt text should match its photo.
+
+You can check SEO title and meta description lengths with the free [title checker](https://legacyroar7-maker.github.io/shop-tools/).
+
+### Doing many products at once
+Products > **Export** gives you a CSV with the SEO title and SEO description columns. Fill them in, then import the file back with **Overwrite products with matching handles** ticked. Test with 2 products first and keep the original export as a backup. The column layout is in the [Shopify product CSV import template](#1-shopify-product-csv-import-template).
+
+### Quick checklist before you save
+- [ ] SEO title about 60 characters, main words first
+- [ ] Meta description about 155 characters, its own text, only true facts
+- [ ] Short URL handle, redirect ticked if you changed it
+- [ ] Photo file names say what the product is
+- [ ] Every photo has its own alt text
+- [ ] Category picked and its fields filled
+- [ ] Type and vendor spelled the same as on your other products
+- [ ] In 1 to 3 collections
+- [ ] 3 to 8 clean tags
+- [ ] Key facts with real numbers, plus a short FAQ
+
+### Common mistakes
+- **The same meta description on every product.** Each page needs its own words, or the pages look alike.
+- **Keyword lists in alt text.** "mug cup coffee mug gift mug" does not describe a photo. Write one plain sentence.
+- **Changing the URL handle with no redirect.** Old links, ads and bookmarks break.
+- **Two spellings of one value.** "Grey" and "Gray", or "Mug" and "Mugs", split your filters and collections.
+- **Leaving Category empty.** You lose the extra fields that filters and some sales channels read.
+- **Made-up facts or barcodes.** Write only what is true for this product.
+
+These fields make the page clearer for buyers, search engines and AI tools. Nobody can promise a ranking.
 
 ---
 
