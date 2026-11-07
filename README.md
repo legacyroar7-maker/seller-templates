@@ -15,8 +15,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 8. [Product photo shot list for Etsy and Shopify](#8-product-photo-shot-list-for-etsy-and-shopify)
 9. [Shopify collection page checklist](#9-shopify-collection-page-checklist)
 10. [Shopify SEO and AEO fields checklist for every product](#10-shopify-seo-and-aeo-fields-checklist-for-every-product)
+11. [Shopify product page checklist before you go live](#11-shopify-product-page-checklist-before-you-go-live)
 
-More templates are coming soon: a Shopify product page checklist for before you go live.
+More templates are coming soon: an eBay and Vinted shipping and parcel size cheat sheet.
 
 ---
 
@@ -651,6 +652,102 @@ Products > **Export** gives you a CSV with the SEO title and SEO description col
 - **Made-up facts or barcodes.** Write only what is true for this product.
 
 These fields make the page clearer for buyers, search engines and AI tools. Nobody can promise a ranking.
+
+---
+
+## 11. Shopify product page checklist before you go live
+
+**File:** [shopify-product-page-go-live-checklist.csv](shopify-product-page-go-live-checklist.csv)
+
+A product can look fine in Shopify admin and still break for buyers: a colour with no photo, a variant with 0 stock, a weight left at 0 kg, or a product that is Active but not on your Online Store. This checklist goes through the whole product page in 26 rows and 8 parts, with where to find each field in Shopify admin, the rule, and a filled demo (the Speckled Mug from the made-up brand Fernmoor, in 3 colours).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel. Make one copy per product.
+2. **Keep** the product on **Draft** while you work.
+3. **Go** row by row. Write what you set in the **Your value** column and mark **Done** with **Y**.
+4. **Switch** the product to **Active** only after the final test in Part 8.
+
+### Part 1. Product basics
+| Check | Rule | Demo |
+|---|---|---|
+| **Title** | The plain name buyers search for, plus one key detail. No CAPITALS or emoji. | Speckled Stoneware Mug, 350 ml |
+| **Description** | Hook, 3 benefits, specs with real numbers, care, short FAQ. Full structure in [Product description structure](#7-product-description-structure). | 350 ml, 9.5 cm tall, stoneware, dishwasher safe, 3 FAQs |
+| **Photos** | At least 5, same light and background. What to shoot is in the [product photo shot list](#8-product-photo-shot-list-for-etsy-and-shopify). | 8 photos: main, in hand, glaze close-up, box and more |
+
+### Part 2. Variants
+| Check | Rule | Demo |
+|---|---|---|
+| **Options** | Variants > **Add options like size or color**. Same spelling as on your other products. | Color: Sage Green, Sand, Charcoal |
+| **Every variant complete** | Open each variant. Each one needs its own price, SKU, stock, weight and photo. | 3 of 3 complete |
+| **Variant photo** | Link a photo to each variant, so buyers see the colour they pick. | Each colour has its own main photo |
+
+### Part 3. Prices
+| Check | Rule | Demo |
+|---|---|---|
+| **Price** | Check every variant. Check your tax settings to see if prices include tax. | 24.00 |
+| **Compare-at price** | Only a real earlier price that was higher. Otherwise leave it blank. In the EU the earlier price you show must be the lowest price of the last 30 days. | Blank |
+| **Charge tax on this product** | Ticked for most physical products. Check **Settings > Taxes and duties**. | Ticked |
+| **Cost per item** | What one unit costs you, with packaging. Buyers never see it. Shopify uses it to show profit and margin. | 9.50 (profit 14.50, margin 60.4%) |
+
+### Part 4. Inventory
+| Check | Rule | Demo |
+|---|---|---|
+| **SKU** | Your own short code, unique per variant. | FM-MUG350-SAGE |
+| **Barcode** | Only the real number from the packaging. Never make one up. | None (handmade) |
+| **Track quantity** | Ticked. Enter the stock you really have at each location. | 12 / 8 / 5 |
+| **Continue selling when out of stock** | Off. Turn it on only for made to order items, and show the real delivery time on the page. | Off |
+
+### Part 5. Shipping
+| Check | Rule | Demo |
+|---|---|---|
+| **This is a physical product** | Ticked for anything you post. | Ticked |
+| **Weight** | One unit packed, with box and filling. Round up. A weight of 0 gives wrong shipping rates. | 0.55 kg |
+| **Shipping profile and rates** | **Settings > Shipping and delivery**. The product must be in a profile with rates for every country you sell to. Buyers in a country with no rate cannot check out. | General profile, home country and EU |
+| **Customs information** | If you ship abroad: country or region of origin and HS code. Check the code with your carrier or the customs tariff. Do not guess. | Portugal, HS 6912.00 |
+
+### Part 6. SEO and AEO fields
+Fill the SEO title, meta description, URL handle, image alt text, category, type, vendor, collections and tags. Each field, with rules and a demo, is in the [Shopify SEO and AEO fields checklist](#10-shopify-seo-and-aeo-fields-checklist-for-every-product). You can check lengths with the free [title checker](https://legacyroar7-maker.github.io/shop-tools/).
+
+### Part 7. Status and sales channels
+| Check | Rule | Demo |
+|---|---|---|
+| **Status** | **Draft** while you work. **Active** only after Part 8. | Draft, then Active |
+| **Sales channels and markets** | **Publishing > Manage**. Tick **Online Store** and every other channel you use. A product can be Active and still not show in your shop if Online Store is not ticked. | Online Store and Shop |
+| **Theme template** | The right product template, if your theme has more than one. It decides which sections show, for example your FAQ block. | Default product |
+
+### Part 8. Final test
+1. **Open** the live page on a phone. Click every variant: the photo, price and stock message should change.
+2. **Read** all text once more for typos and wrong numbers.
+3. **Add** one variant to the cart and go to checkout with a test address. Check the shipping rate, tax and total before the payment step.
+4. **For** a full test order, use your payment provider's test mode, then cancel the test order and turn test mode off.
+
+### Doing many products at once
+Products > tick the products > **Bulk edit**. Add the columns you need (price, compare-at price, SKU, weight, stock) and scan them side by side. Empty cells and 0 kg weights are easy to spot this way.
+
+### Quick checklist before you go live
+- [ ] Clear title and a description with real numbers
+- [ ] At least 5 photos, each with alt text
+- [ ] Every variant has price, SKU, stock, weight and its own photo
+- [ ] Compare-at price blank, or a real earlier price
+- [ ] Cost per item filled in
+- [ ] Track quantity on, real stock counts entered
+- [ ] Continue selling when out of stock off (unless made to order)
+- [ ] Packed weight filled in for every variant
+- [ ] Shipping rates for every country you sell to
+- [ ] Customs information filled in if you ship abroad
+- [ ] SEO and AEO fields done (section 10)
+- [ ] Online Store ticked under sales channels
+- [ ] Phone preview and checkout test done, then Status set to Active
+
+### Common mistakes
+- **Weight left at 0 kg.** Weight-based and carrier rates come out wrong, often too low.
+- **Only the first variant checked.** The other colours go live with no photo, no SKU or 0 stock.
+- **A fake compare-at price.** It misleads buyers, and in many countries it breaks consumer law.
+- **Continue selling when out of stock left on.** You take orders you cannot send.
+- **Active but not on Online Store.** The product exists in admin, but buyers never see it.
+- **No shipping rate for a country you sell to.** Buyers from there reach checkout and cannot pay.
+
+These checks help the page work for buyers on day one. Nobody can promise sales or a ranking.
 
 ---
 
