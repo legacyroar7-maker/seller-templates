@@ -16,8 +16,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 9. [Shopify collection page checklist](#9-shopify-collection-page-checklist)
 10. [Shopify SEO and AEO fields checklist for every product](#10-shopify-seo-and-aeo-fields-checklist-for-every-product)
 11. [Shopify product page checklist before you go live](#11-shopify-product-page-checklist-before-you-go-live)
+12. [eBay and Vinted shipping and parcel size cheat sheet](#12-ebay-and-vinted-shipping-and-parcel-size-cheat-sheet)
 
-More templates are coming soon: an eBay and Vinted shipping and parcel size cheat sheet.
+More templates are coming soon: an Etsy shop About and announcement template.
 
 ---
 
@@ -198,7 +199,7 @@ Then, in the description on both apps: fit, measurements in cm, fabric, how ofte
 - [ ] Category, brand, size, condition and colour filled in
 - [ ] Measurements in cm and every flaw written in the description
 - [ ] Price checked against sold items
-- [ ] Parcel size picked from the item packed, not guessed
+- [ ] Parcel size picked from the item packed, not guessed (see the [shipping and parcel size cheat sheet](#12-ebay-and-vinted-shipping-and-parcel-size-cheat-sheet))
 
 ### Common mistakes
 - **Dark or filtered photos.** Buyers cannot see the true colour, so they scroll past or ask and wait.
@@ -748,6 +749,92 @@ Products > tick the products > **Bulk edit**. Add the columns you need (price, c
 - **No shipping rate for a country you sell to.** Buyers from there reach checkout and cannot pay.
 
 These checks help the page work for buyers on day one. Nobody can promise sales or a ranking.
+
+---
+
+## 12. eBay and Vinted shipping and parcel size cheat sheet
+
+**File:** [ebay-vinted-shipping-cheat-sheet.csv](ebay-vinted-shipping-cheat-sheet.csv)
+
+A wrong weight or parcel size costs you money. On eBay, the carrier can charge you the difference after the label is bought. On Vinted, a parcel that is too big can be refused, and the size cannot be changed after the buyer pays. This cheat sheet shows how to pack, weigh, measure and pick the right size, with a filled demo (a wool cardigan from the made-up brand Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Look** at the **App** column. Rows marked **Both** are for eBay and Vinted. The rest are for one app only.
+3. **Pack the item first**, then weigh and measure it. Write your numbers in the **Your value** column.
+4. **Mark** each row **Y** in the **Done** column, then enter the numbers in the app.
+
+### The golden rule: pack first, then weigh and measure
+Weigh and measure the parcel **as it will be sent**: item, bag or box, tissue, filling and any note. Then **round up**. Never round down.
+
+| What | How | Rule |
+|---|---|---|
+| **Weight** | Put the sealed parcel on a kitchen or parcel scale. | Round up to the next 100 g, or the next whole unit your carrier uses. |
+| **Length** | The longest side, at the widest point. | Round up to the next whole cm (or inch). |
+| **Width** | The next longest side. Soft mailers bulge, so measure the middle. | Round up. |
+| **Height** | From the table to the highest point. Press lightly. | Round up. Do not squash it to make it fit. |
+
+### Dimensional weight in 1 minute
+Many couriers charge the **bigger** of two numbers: the real weight, or the size turned into a weight.
+
+**Length x width x height (cm) / the carrier's number = dimensional weight (kg)**
+
+Many couriers use **5000** for cm and kg. Postal services often charge small soft parcels by real weight only. Check your carrier, because the number and the rules differ.
+
+Demo: 31 x 26 x 6 cm = 4836. 4836 / 5000 = about **1 kg**. The real weight is **0.6 kg**. A courier using this rule would charge for 1 kg. A smaller, flatter parcel would cost less.
+
+### Pick the size: eBay and Vinted side by side
+| | **eBay** | **Vinted** |
+|---|---|---|
+| **Where you enter it** | The delivery part of the listing: packed weight, length, width, height and package type. | When you list, you pick a parcel size. The app shows the weight limit and example items for each size. |
+| **Who pays** | You set it: free, flat cost, or calculated from your weight and size. | The buyer pays at checkout and picks the carrier and delivery option. |
+| **How to choose** | A service whose size and weight limits your parcel fits, for example a large letter, small parcel or package option. | The smallest size where your packed weight and size are both under the limit. Close to the limit? Pick the next size up. |
+| **If you get it wrong** | The carrier can charge you the difference after the label is bought. | The carrier can refuse the parcel or charge extra. The size cannot be changed after the buyer pays. |
+| **Time to send** | The handling time you set. Pick one you can always meet. | The time Vinted shows after the sale (5 working days when this was written), with the label or code from Vinted. |
+| **Bundles** | Add up the packed weight of all items and check the size again. | Pack and weigh the items together before you agree. A bundle often needs a bigger size. |
+
+Limits, sizes and carriers differ by country and change over time. Check the app and the carrier's page when you list.
+
+### Pack clothing flat in 6 steps
+1. **Lay** the item face down on a clean table. Do up buttons and zips.
+2. **Fold** the sleeves in to the middle of the back.
+3. **Fold** the sides in so the item is about as wide as your mailer, minus 3 to 5 cm.
+4. **Fold** it in half or in thirds from the bottom up. Aim for a flat rectangle.
+5. **Slide** it into a clear bag if the mailer is not waterproof, then into the mailer. Press out the air and seal it.
+6. **Add** the label on the flat front. Remove or cover any old barcodes on a reused bag or box.
+
+Shoes, bags and stiff or fragile items go in a box with filling, so nothing moves when you shake it.
+
+### Demo: Fernmoor wool cardigan
+| Check | Demo value |
+|---|---|
+| Packaging | Grey poly mailer 35 x 45 cm, cardigan in a clear bag |
+| Packed weight | 0.52 kg, rounded up to **0.6 kg** |
+| Packed size | 31 x 26 x 6 cm (rounded up) |
+| Dimensional weight | About 1 kg (31 x 26 x 6 / 5000) |
+| Vinted | Smallest size with a limit above 0.6 kg that fits 31 x 26 x 6 cm |
+| eBay | 0.6 kg and 31 x 26 x 6 cm entered, small parcel or package service with tracking, handling time 1 working day |
+| Bundle with a scarf | 0.75 kg packed, still checked against the same limit before agreeing |
+
+### Quick checklist before you list
+- [ ] Item packed in the bag or box you will really use
+- [ ] Packed parcel weighed on a scale, rounded up
+- [ ] Length, width and height measured at the widest point, rounded up
+- [ ] Dimensional weight checked if you use a courier or a box
+- [ ] Vinted: smallest size that fits, with room to spare
+- [ ] eBay: weight, size and package type entered, handling time you can meet
+- [ ] Bundles weighed together before you agree
+- [ ] Old labels and barcodes removed, new label flat and fully visible
+
+### Common mistakes
+- **Weighing the item, not the parcel.** The bag, box and filling can push it over a limit.
+- **Rounding down.** A parcel 10 g over the limit counts as the next size.
+- **A big box for a soft item.** You pay for air when the carrier uses dimensional weight.
+- **Picking a Vinted size too small to save the buyer money.** The parcel can be refused, and the size cannot be changed after checkout.
+- **Guessing on eBay.** If the carrier measures a bigger or heavier parcel, you pay the difference later.
+- **Reusing a bag with an old barcode.** The parcel can go to the wrong place.
+
+These checks help you send parcels at the right price. Postage prices are set by each app and carrier.
 
 ---
 
