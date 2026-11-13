@@ -17,8 +17,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 10. [Shopify SEO and AEO fields checklist for every product](#10-shopify-seo-and-aeo-fields-checklist-for-every-product)
 11. [Shopify product page checklist before you go live](#11-shopify-product-page-checklist-before-you-go-live)
 12. [eBay and Vinted shipping and parcel size cheat sheet](#12-ebay-and-vinted-shipping-and-parcel-size-cheat-sheet)
+13. [Etsy shop About and announcement template](#13-etsy-shop-about-and-announcement-template)
 
-More templates are coming soon: an Etsy shop About and announcement template.
+More templates are coming soon: Depop and Vinted offer and bundle message templates.
 
 ---
 
@@ -835,6 +836,124 @@ Shoes, bags and stiff or fragile items go in a box with filling, so nothing move
 - **Reusing a bag with an old barcode.** The parcel can go to the wrong place.
 
 These checks help you send parcels at the right price. Postage prices are set by each app and carrier.
+
+---
+
+## 13. Etsy shop About and announcement template
+
+**File:** [etsy-shop-about-announcement-template.csv](etsy-shop-about-announcement-template.csv)
+
+Your shop title, announcement and About section are the first words many buyers read about you. They answer three questions: what do you make, who makes it, and when will my order arrive? This template gives you a formula for each part, fill-in blanks, live character counts and a filled demo (the made-up pottery shop Fernmoor).
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Write** your text in the **Your text** column, row by row. The **Characters used** column counts it for you.
+3. **Read** it out loud once. Cut any sentence that a buyer would skip.
+4. **Paste** each part into Etsy (paths below), save, and mark the row **Y** in the **Done** column.
+
+### Where each part shows and its limit
+| Part | Where buyers see it | Limit | Where to edit |
+|---|---|---|---|
+| **Shop title** | Under your shop name on your shop home, and in Google results | Up to 55 characters | Shop Manager > pencil icon next to your shop name under **Sales Channels** > **Add a shop title** or **Edit** |
+| **Announcement** | On your shop home page | No short limit in Etsy's help. Etsy says keep it "short and sweet". | Same pencil icon > **Announcement** > **Add a shop announcement** or **Edit** |
+| **About your shop** | The About section of your shop | 5,000 characters or less | Shop Manager > **Settings** > **Your shop** > **Shop home editor** > About section |
+| **Featured photos** | About section | Up to 5, each with a caption. .jpg, .png or .gif, up to 2 MB. Cropped to 760 x 468 px. | Shop home editor > About section |
+| **Featured video** | About section | MP4, MOV, AVI, MPEG or M4V, up to 300 MB | Shop home editor > About section |
+| **Shop team** | About page. Owners also show on listing pages. | Name, role, bio and photo per person | Shop home editor > About section |
+| **Logo** | Shop home | .jpg, .png or .gif, under 10 MB, at least 500 x 500 px | Shop home editor > Shop basics |
+
+Your shop must be open before you can add a title or announcement. Etsy changes its shop pages from time to time, so check the editor if a menu name looks different.
+
+### Shop title: one line, up to 55 characters
+**Formula:** what you sell + what makes it different.
+
+| Weak | Better |
+|---|---|
+| Welcome to my shop!!! | Handmade stoneware mugs and vases in soft colours (49) |
+| BEST GIFTS EVER | Personalised wooden name signs for kids' rooms |
+| Fernmoor Studio | Hand-knitted wool scarves and hats in natural colours |
+
+Use words a buyer would type. Your shop name already shows above it, so you do not need to repeat it.
+
+### Shop announcement: 4 short lines
+Put the most important line first. Many buyers read only that one.
+
+| Line | What it says | Demo (Fernmoor) |
+|---|---|---|
+| **1. News** | The one thing that matters now: a delivery cut-off, a holiday break, a new collection. Add the date if it ends. | Holiday orders: order by 12 December for delivery before 24 December (UK addresses). |
+| **2. Timing** | How long it takes to make and send an order | Every piece is made to order and ships in 5 to 7 working days. |
+| **3. What you make** | One sentence, one true detail | We make stoneware mugs and vases by hand, in batches of 20 to 30. |
+| **4. Next step** | One section to look at, and how to ask a question | Looking for a gift? See the Gift Sets section. Questions? Send us a message on Etsy. |
+
+The demo is 4 lines and about 300 characters. Fill-in version:
+
+```
+[News or date to know]: [what is happening] [until or by date].
+Every [item] is [made to order / ready to ship] and ships in [X to Y] working days.
+We make [what you make] [one true detail about how].
+Looking for [need]? See the [Section name] section. Questions? Send us a message on Etsy.
+```
+
+**Update it** when you go on a break, before holiday cut-offs, when you add a new range, and when a date has passed. An old date tells buyers nobody is home. If your shop language is not English, Etsy may not update the "posted" date, so write the date in line 1 yourself.
+
+### About your shop: 5 parts
+| Part | The question it answers | Length | Demo (Fernmoor) |
+|---|---|---|---|
+| **1. Who and what** | Who makes this, and what do you make? | 1 to 2 sentences | Fernmoor is a two-person pottery studio. [Name] throws every mug and vase on the wheel, and [Name] glazes, packs and answers your messages. |
+| **2. Why** | Why did you start? | 1 to 3 sentences | We started Fernmoor because we wanted mugs that feel good to hold every morning: a wide handle, a thick rim and a size that fits a full coffee. |
+| **3. How it is made** | What is it made of, and who does what? | 2 to 4 sentences | Each piece is made from stoneware clay, glazed in our own colours and fired twice in our kiln. Because every piece is made by hand, the speckles and glaze lines are a little different on each one. |
+| **4. What to expect** | When will it arrive, how is it packed, how do I care for it? | 2 to 3 sentences | Orders are made to order and ship in 5 to 7 working days, wrapped in recycled paper and a gift box. All mugs are dishwasher and microwave safe. |
+| **5. Next step** | What should I do now? | 1 sentence | Want a custom set or a different colour? Send us a message on Etsy and tell us what you have in mind. |
+
+The demo is about 140 words. Etsy allows up to 5,000 characters, but 120 to 300 words is plenty for most shops. Buyers skim, so the first two sentences do most of the work.
+
+Fill-in version:
+
+```
+[Shop name] is [one person / a team of X] making [what you make] in [place or "a home studio"].
+[Who] [does what].
+
+We started [Shop name] because [the real reason, one idea a buyer can picture].
+
+Each [item] is made from [materials], [main steps]. [Who helps, including any production partner.]
+[Why each piece may look a little different, if that is true.]
+
+[Item] ships in [X to Y] working days, packed in [packaging]. [Care in one line.]
+
+[One next step: a section to browse, or "Send us a message on Etsy for custom orders."]
+```
+
+### Photos, video and team
+- **5 featured photos:** real ones only. Good picks: hands at work, your workspace, materials, packing an order, the full range. Keep the subject in the middle, because Etsy crops them to 760 x 468 px. Write one short caption each.
+- **Video:** a short real clip of making or packing. Use only music you have the rights to.
+- **Shop team:** only real people who work on the shop, each with a role and a 1-line bio. If a production partner helps you make items, Etsy asks you to declare it, so say so in your About text too.
+
+### Rules that keep you safe
+- **Only true facts.** No made-up awards, press mentions, customer numbers or reviews.
+- **Keep buyers on Etsy.** Do not ask buyers to pay or order outside Etsy. Etsy's fee rules do not allow it.
+- **Match your listings.** The processing time and care notes must be the same in your announcement, About text, listings and policies.
+- **Questions through Etsy Messages.** It keeps every order conversation in one place.
+
+### Quick checklist before you save
+- [ ] Shop title says what you sell, in 55 characters or less
+- [ ] Announcement line 1 is the most important thing right now, with a date if it ends
+- [ ] Processing time matches your listings and shipping profiles
+- [ ] About text answers who, why, how it is made, what to expect, and the next step
+- [ ] Every fact is true, including who makes the items
+- [ ] Up to 5 real photos with captions, subject in the middle
+- [ ] Shop team shows real people with roles
+- [ ] No request to buy outside Etsy
+- [ ] A date in your calendar to check it again next month
+
+### Common mistakes
+- **A title that only says "Welcome".** It wastes the line that also shows in Google.
+- **An old announcement.** "Back from holiday on 3 August" in November makes buyers think the shop is closed.
+- **A long life story first.** Put what you make and who makes it at the top. The story comes second.
+- **Different delivery times in different places.** Buyers trust the shortest one, then feel let down.
+- **Stock photos in the About section.** Buyers want to see the real people and place.
+- **Hiding who makes the items.** Be clear about any partner who helps.
+
+A clear title, announcement and About section help buyers trust your shop. They do not guarantee sales or a higher place in search.
 
 ---
 
