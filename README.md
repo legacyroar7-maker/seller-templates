@@ -18,8 +18,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 11. [Shopify product page checklist before you go live](#11-shopify-product-page-checklist-before-you-go-live)
 12. [eBay and Vinted shipping and parcel size cheat sheet](#12-ebay-and-vinted-shipping-and-parcel-size-cheat-sheet)
 13. [Etsy shop About and announcement template](#13-etsy-shop-about-and-announcement-template)
+14. [Depop and Vinted offer and bundle message templates](#14-depop-and-vinted-offer-and-bundle-message-templates)
 
-More templates are coming soon: Depop and Vinted offer and bundle message templates.
+More templates are coming soon: Shopify size chart template for clothing, eBay condition notes for used items.
 
 ---
 
@@ -192,6 +193,7 @@ Then, in the description on both apps: fit, measurements in cm, fabric, how ofte
 - **Leave a little room for offers.** Decide your lowest price before you list.
 - **Turn on bundle discounts** if you sell many items.
 - **Price by condition.** A worn item with flaws should sit below the same item in better condition.
+- **Ready replies for offers and bundles:** see the [offer and bundle message templates](#14-depop-and-vinted-offer-and-bundle-message-templates).
 
 ### Quick checklist before you list
 - [ ] Main photo shows the whole item, in daylight, on a plain background
@@ -954,6 +956,95 @@ Each [item] is made from [materials], [main steps]. [Who helps, including any pr
 - **Hiding who makes the items.** Be clear about any partner who helps.
 
 A clear title, announcement and About section help buyers trust your shop. They do not guarantee sales or a higher place in search.
+
+---
+
+## 14. Depop and Vinted offer and bundle message templates
+
+**File:** [depop-vinted-offer-bundle-messages.csv](depop-vinted-offer-bundle-messages.csv)
+
+On Depop and Vinted, many sales start with a message: "Is this still available?", a low offer, or "Do you do bundle deals?". A fast, short, polite reply keeps the buyer talking. This file has 14 ready-to-fill replies, a filled demo for each (the made-up shop Fernmoor), live character counts and a tip per message.
+
+### How to use it
+1. **Open** the file in Google Sheets (File > Import) or Excel.
+2. **Decide your 3 prices** for each item before you list (see the price plan below).
+3. **Copy** a template into the **Your message** column and change every **[bracket]**. The **Characters used** column counts it for you.
+4. **Save** your finished replies as notes on your phone, so you can paste them in seconds. Mark each row **Y** in the **Done** column.
+
+### Before you list: your 3-price plan
+Know your numbers before the first offer comes in. Then you never have to decide in a rush.
+
+| Price | What it means | Demo (Fernmoor wool cardigan) |
+|---|---|---|
+| **Listed price** | What you show on the listing. Check sold items, not live ones. | £28 |
+| **Yes price** | Any offer at or above this, you accept straight away. | £24 |
+| **Lowest price** | You never go below this. Say it once, then stop. | £22 |
+
+**Counter rule:** counter close to your yes price, never below your lowest price. Demo: an offer of £12 gets a counter at £24. A second offer of £18 gets "£22 is my lowest price".
+
+### How offers and bundles work on each app
+| | **Vinted** | **Depop** |
+|---|---|---|
+| **Offers** | Buyers can send an offer on one item or a bundle. You can accept, decline or send a counter offer. | Buyers tap **Make offer**. You can accept, counter or decline. Offers end after **24 hours** with no reply. |
+| **After you accept** | The buyer can now buy at the offer price, plus postage and the buyer fee. | The buyer has **24 hours** to pay. Until they pay, anyone can still buy at full price. You can accept more than one offer: the first to pay gets it. |
+| **Bundle discount** | Turn it on in your profile settings: a % off when a buyer takes more than one of your items. Pro sellers cannot use it. | **Settings > Sell more > Bundles**: a % off 2 or more items, or a postage deal. It applies at checkout by itself. |
+| **How buyers bundle** | They add your items to a bundle (up to 100 items from one seller). The parcel size is picked by the app. | They add your items to their bag and check out once. |
+| **You send offers** | Reply in chat or with a counter offer. | **Send offer** gives a lower price to people who liked the item. They have 24 hours to buy. |
+
+Apps change these settings from time to time. Check the app's help pages if a menu looks different.
+
+### The 14 replies at a glance
+| # | Situation | Demo reply (Fernmoor) |
+|---|---|---|
+| 1 | Still available: yes | Hi Sam! Yes, it's still available. It's a size M, 54 cm pit to pit, worn twice with no flaws. You can buy it now or send me an offer. |
+| 2 | Still available: sold | Hi Sam, sorry, this one has just sold. I have a similar cardigan in size M in oat colour in my shop if you'd like to have a look. |
+| 3 | Buyer asks you to hold it | Hi Alex, thanks for asking! I can't hold items, so it goes to the first person who buys. If you're ready, you can buy it now with the Buy button. |
+| 4 | Low offer: counter | Thanks for your offer, Jo! The lowest I can do is £24, because it's 100% wool and only worn twice. I've sent you a counter offer at £24. |
+| 5 | Low offer: polite no | Thanks for the offer, Jo. I can't go that low on this one, but I'd be happy to accept £24. No worries if it's not for you! |
+| 6 | Fair offer: accept (Vinted) | Thanks, Priya! I've accepted your offer of £25. Once you've paid, I'll send it within 2 working days with tracking through Vinted. |
+| 7 | Fair offer: accept (Depop) | Thanks, Priya! I've accepted your offer of £25 plus postage. It's yours once you pay within 24 hours. I'll send it within 2 working days. |
+| 8 | Second low offer: final price | Thanks, Jo. £22 is my lowest price for this one. It's listed at that price if you change your mind. |
+| 9 | Offer a bundle | Hi Mia, I see you liked my wool cardigan and wool scarf. If you take both, I can do £33 for the two (you save £5) and they go in one parcel. |
+| 10 | Buyer asks: do you do bundle deals? | Yes! I give 10% off when you buy 2 or more items. Add them to a bundle (Vinted) or your bag (Depop) and the discount shows at checkout. |
+| 11 | Low bundle offer: counter | Thanks, Mia! For the 2 items the lowest I can do is £33. That's £5 off the full price, and postage is one parcel. I've sent a counter offer. |
+| 12 | Accepted offer, buyer has not paid (Depop) | Hi Priya, just a reminder: your accepted offer of £25 ends in about 6 hours. After that it goes back to the full price. |
+| 13 | Buyer wants to pay or chat outside the app | Thanks for asking! I only sell through Vinted, so the payment and the parcel are protected for both of us. You can buy it here with the Buy button. |
+| 14 | Thank you after sending | Thanks for buying, Jo! Your wool cardigan is on its way today. Tracking is in the app. If you're happy with it, a review would help my shop. |
+
+Demo prices: cardigan £28, scarf £10, together £38. The fill-in version of every reply is in the CSV.
+
+### 5 rules for every reply
+1. **Short.** 1 to 3 sentences, under about 160 characters. Buyers read on their phone.
+2. **Name and thanks.** Start with their name and a thank you, even for a low offer.
+3. **One fact.** Give one true detail that helps them decide: size, a measurement, condition or fabric.
+4. **One next step.** Buy now, send an offer, pay within 24 hours. Never leave them guessing.
+5. **Fast.** Reply within a few hours. On Depop an offer ends after 24 hours, and buyers keep scrolling.
+
+### Rules that keep you safe
+- **Keep everything in the app.** Never share your phone, email, social media or bank details. Protection only covers sales paid through the app.
+- **Never send before it is paid.** Wait until the app shows the item as sold and paid.
+- **No pressure tricks.** No fake "someone else wants it" or "last chance". Only true facts.
+- **Bundles: weigh them together.** Two items packed can need a bigger parcel. See the [shipping and parcel size cheat sheet](#12-ebay-and-vinted-shipping-and-parcel-size-cheat-sheet).
+- **Ask for an honest review.** Never ask for a set number of stars.
+
+### Quick checklist before you reply
+- [ ] Listed, yes and lowest price written down for this item
+- [ ] Buyer's name used, and a thank you
+- [ ] One true fact added (size, measurement, condition or fabric)
+- [ ] Counter sent with the app's offer button, not only in chat
+- [ ] One clear next step at the end
+- [ ] Bundle weighed and parcel size checked before you agree
+- [ ] No contact details, links to other sites or payment outside the app
+
+### Common mistakes
+- **Ignoring low offers.** A short, friendly counter often turns a low offer into a sale.
+- **Saying "lowest price" and then going lower.** Buyers learn to push, and your next "lowest" means nothing.
+- **Long replies.** A paragraph about the item's history gets skimmed. Put that in the description.
+- **Saying "sold" when it is not.** It confuses buyers, and they may not come back.
+- **Holding items for days.** Other buyers cannot buy it, and many holds never pay.
+- **Agreeing a bundle price before weighing it.** A bigger parcel can eat the profit.
+
+These replies help you answer buyers faster and more clearly. They do not guarantee a sale.
 
 ---
 
