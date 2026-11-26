@@ -19,8 +19,9 @@ All examples use a made-up demo brand (Fernmoor). Swap in your own products.
 12. [eBay and Vinted shipping and parcel size cheat sheet](#12-ebay-and-vinted-shipping-and-parcel-size-cheat-sheet)
 13. [Etsy shop About and announcement template](#13-etsy-shop-about-and-announcement-template)
 14. [Depop and Vinted offer and bundle message templates](#14-depop-and-vinted-offer-and-bundle-message-templates)
+15. [Shopify size chart template for clothing](#15-shopify-size-chart-template-for-clothing)
 
-More templates are coming soon: Shopify size chart template for clothing, eBay condition notes for used items.
+More templates are coming soon: eBay condition notes for used items, Vinted and Depop measurement guide for clothing.
 
 ---
 
@@ -1045,6 +1046,115 @@ Demo prices: cardigan £28, scarf £10, together £38. The fill-in version of ev
 - **Agreeing a bundle price before weighing it.** A bigger parcel can eat the profit.
 
 These replies help you answer buyers faster and more clearly. They do not guarantee a sale.
+
+---
+
+## 15. Shopify size chart template for clothing
+
+**Files:** [shopify-size-chart-template.csv](shopify-size-chart-template.csv) and [shopify-size-chart-snippet.html](shopify-size-chart-snippet.html)
+
+The first question a clothing buyer asks is "Will it fit me?". A clear size chart answers it on the product page. This kit has a fill-in sheet for your measurements (type cm, the inches fill themselves), how to measure each part, fit notes, and a ready HTML table you paste into Shopify. The demo is a linen shirt from the made-up shop Fernmoor.
+
+### How to use it
+1. **Open** the CSV in Google Sheets (File > Import) or Excel.
+2. **Measure** one finished item in each size, laid flat (see the table below). Type the numbers in the **cm** rows. The **inches** rows work themselves out.
+3. **Write** your fit notes in part 4 of the sheet. Only write what is true for your item.
+4. **Copy** your numbers into the HTML snippet, replacing the demo numbers, and paste it into Shopify (see "Add it to your Shopify store").
+
+### Garment or body measurements?
+Pick one and say which one in the chart title. Buyers get the wrong size when they cannot tell.
+
+| | **Garment measurements** | **Body measurements** |
+|---|---|---|
+| **What it is** | The clothes, measured flat | The person who wears them |
+| **Best for** | Small shops, made to order, resale, one-off items | Big brands with a fixed size system |
+| **How buyers check** | Measure a piece they own the same way and compare | Measure their own body |
+| **Demo** | Fernmoor linen shirt, size M: chest all round 116 cm | Not used here |
+
+If you only know one, use garment measurements. You can check them yourself with a tape measure.
+
+### How to measure: lay it flat
+**Rules for every item**
+- Lay it on a table, buttoned and zipped, with no folds. Smooth it out, do not stretch it.
+- Use a soft tape measure. Write cm and round to the nearest 0.5 cm.
+- Measure the finished item, not the pattern or the label size.
+- Measure 2 items of the same size if you can. If they differ, write the smaller number.
+- Use the same method on every product, so buyers can compare across your shop.
+
+| Part | How to measure |
+|---|---|
+| **Chest, pit to pit** | Straight across, 2.5 cm (1 inch) below the armholes, from side seam to side seam |
+| **Chest, all round** | Pit to pit x 2 (the sheet does this for you) |
+| **Length** | On the back, from the top of the shoulder next to the collar, straight down to the hem |
+| **Shoulder** | From one shoulder seam to the other, across the back |
+| **Sleeve** | From the shoulder seam to the end of the cuff, along the top of the sleeve |
+| **Waist, flat** | Straight across the top of the closed waistband, edge to edge |
+| **Hip, flat** | Straight across at the bottom of the zip |
+| **Inseam** | From the crotch seam down the inside leg to the hem |
+| **Front rise** | From the crotch seam up to the top of the front waistband |
+| **Leg opening, flat** | Straight across the hem of one leg |
+
+The sheet has rows for tops (filled with the demo) and for trousers, jeans and skirts (empty, ready for you).
+
+### Demo chart: Fernmoor linen shirt
+Garment measurements, measured flat. Numbers show cm / inches.
+
+| Size | Chest, all round | Length | Shoulder | Sleeve |
+|---|---|---|---|---|
+| XS | 104 / 40.9 | 72 / 28.3 | 44 / 17.3 | 59 / 23.2 |
+| S | 110 / 43.3 | 74 / 29.1 | 46 / 18.1 | 60 / 23.6 |
+| M | 116 / 45.7 | 76 / 29.9 | 48 / 18.9 | 61 / 24.0 |
+| L | 122 / 48.0 | 78 / 30.7 | 50 / 19.7 | 62 / 24.4 |
+| XL | 128 / 50.4 | 80 / 31.5 | 52 / 20.5 | 63 / 24.8 |
+
+Demo numbers only. Always use numbers from your own items. 1 inch = 2.54 cm.
+
+### Fit notes that answer "Will it fit me?"
+Numbers alone do not tell the whole story. Add 4 to 7 short notes under the chart.
+
+| Note | What to write | Demo (Fernmoor linen shirt) |
+|---|---|---|
+| **Fit** | How it fits, and what to do for a closer or looser fit | Relaxed fit. For a closer fit, take one size down. |
+| **Fabric and stretch** | The fabric, and if it stretches | 100% linen, no stretch. |
+| **Between sizes** | Which way to go | Take the larger one for a relaxed look, the smaller one for a neater fit. |
+| **Compare with your own** | An easy check at home | Lay a shirt you love flat, measure it the same way, and pick the closest size. |
+| **Model info** | Model height and the size they wear (only if true) | Model is 183 cm (6 ft) tall and wears size M. |
+| **How exact** | That numbers are measured by hand | Sizes can differ by about 1 cm. |
+| **Wash and size** | Care that keeps the size, from the care label | Wash at 30°C and dry flat. |
+
+Use the same fit words on every product: slim, regular, relaxed or oversized.
+
+### Add it to your Shopify store
+| Way | Best for | Steps |
+|---|---|---|
+| **A. One chart for many products** | All products of one type share the same sizes | 1. **Online Store > Pages > Add page**, title "Size chart: linen shirts". 2. Click **Show HTML** (the < > icon), paste the snippet, save. 3. **Online Store > Themes > Customize**, open the product page. 4. In the product information section, add a **Pop-up** or **Collapsible row** block, choose your size chart page, name the link "Size chart". Save. |
+| **B. Different charts for different products** | Shirts and jeans need different charts | Do way A once per chart. In the theme editor, create a new product template for each chart and add its block there. Then on each product, choose that template under **Theme template**. |
+| **C. One product only** | A single item or a one-off piece | Open the product, click **Show HTML** in the Description box, paste the snippet at the end, save. |
+
+Block names differ by theme. In Dawn and other free Shopify themes, look for **Pop-up** or **Collapsible row**. If your theme has neither, use way C.
+
+The snippet uses inline styles, so it looks the same in most themes. On a phone, the table scrolls sideways inside its own box. Selling on Etsy, eBay, Vinted or Depop too? Type the numbers for that one size as plain text, for example "Pit to pit 58 cm (22.8 in), length 76 cm (29.9 in)". See [section 4](#4-vinted-and-depop-listing-checklist).
+
+### Quick checklist before you publish
+- [ ] Chart title says garment or body measurements
+- [ ] Size names match your Shopify variant names
+- [ ] Every number measured on a real finished item, laid flat
+- [ ] cm and inches both shown
+- [ ] Pit to pit and all round never mixed up
+- [ ] "How we measure" lines under the chart
+- [ ] 4 to 7 fit notes, all true
+- [ ] Checked on a phone: table readable, scrolls inside its box
+- [ ] Size chart link shows near the size picker
+
+### Common mistakes
+- **No chart at all.** Buyers guess, or leave to find a shop that shows sizes.
+- **Copying a chart from another brand.** Their sizes are not your sizes, and buyers notice when it does not fit.
+- **Pit to pit called "chest".** A buyer reads 58 cm as all round, thinks it is far too small, and orders the wrong size or leaves.
+- **cm only or inches only.** Half your buyers have to work it out, and many will not.
+- **The chart as a photo.** Text in a photo is hard to read on a phone and harder for search engines and AI tools to read. Use the HTML table.
+- **Hiding the chart.** Put the link next to the size picker, not at the bottom of the page.
+
+A clear size chart helps buyers pick the right size. It does not guarantee fewer returns or more sales.
 
 ---
 
